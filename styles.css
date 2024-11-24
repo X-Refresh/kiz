@@ -1,4 +1,4 @@
-
+яё
 /* Общие стили для страницы */
 body {
     font-family: Arial, sans-serif;
@@ -33,7 +33,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 64px;
+    font-size: 32px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
