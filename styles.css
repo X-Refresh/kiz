@@ -51,7 +51,7 @@ button:focus {
     margin: 10px auto;
     width: 80%;
     padding: 10px;
-    font-size: 55px;
+    font-size: 24px;
     cursor: pointer;
     background-color: #ddd;
     border: 1px solid #ccc;
@@ -71,7 +71,7 @@ button:focus {
 }
 
 #start-screen h1 {
-    font-size: 64px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
