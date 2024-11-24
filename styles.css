@@ -61,7 +61,7 @@ button:focus {
 }
 
 #answer-buttons button:hover {
-    front-size: 18px;
+    front-size: 10px;
     background-color: #ccc;
     transform: scale(1.05);
 }
