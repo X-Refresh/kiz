@@ -1,0 +1,99 @@
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Сероватый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+#app {
+    width: 320px; /* Размер ширины контейнера */
+    text-align: center;
+}
+
+/* Все экраны по умолчанию видимы */
+.screen {
+    display: block; /* Экраны должны быть видимыми по умолчанию */
+}
+
+/* Скрытие экранов с классом .hidden */
+.hidden {
+    display: none; /* Этот класс будет скрывать экраны */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}
+
+#answer-buttons button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    color: black
+}
+
+#answer-buttons button:hover {
+    background-color: #ccc;
+    transform: scale(1.05);
+}
+
+#answer-buttons button:focus {
+    outline: none;
+}
+
+#start-screen h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#quiz-screen, #result-screen {
+    margin-top: 20px;
+}
+
+#score-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Дизайн для экрана результатов */
+#result-screen h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#restart-btn {
+    background-color: #f44336; /* Красная кнопка для перезапуска */
+    border-radius: 5px;
+}
+
+#restart-btn:hover {
+    background-color: #e53935;
+}

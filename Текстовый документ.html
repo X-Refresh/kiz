@@ -1,0 +1,34 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квиз: Вторая мировая война</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Убедитесь, что путь к файлу правильный -->
+</head>
+<body>
+    <div id="app">
+        <!-- Начальный экран -->
+        <div id="start-screen" class="screen">
+            <h1>Вторая мировая война</h1>
+            <button id="start-btn">Начать</button>
+        </div>
+
+        <!-- Экран вопросов -->
+        <div id="quiz-screen" class="screen hidden">
+            <div id="question-container">
+                <p id="question-text"></p>
+                <div id="answer-buttons"></div>
+            </div>
+        </div>
+
+        <!-- Экран результатов -->
+        <div id="result-screen" class="screen hidden">
+            <h2>Ваш результат</h2>
+            <p id="score-text"></p>
+            <button id="restart-btn">Пройти снова</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>  <!-- Ваш JavaScript -->
+</body>
+</html>
